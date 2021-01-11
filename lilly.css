@@ -1,0 +1,70 @@
+body {
+    background-color:#efc794;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #926e40;
+}
+
+
+hr {
+   border: none;
+   border-top: 1px solid rgb(95, 61, 16); 
+} 
+
+table {
+    
+}
+
+td {
+    font-style: italic;
+    border-bottom: #3a2a15 1px solid;
+}
+
+td:hover {
+    background-color: rgb(233, 184, 138);
+    transition: all .5s;
+}
+
+
+a {
+    color:rgb(173, 120, 50);
+}
+
+li {
+    font-style: initial;
+    list-style-type: circle;
+}
+
+.kiemelt {
+    color: sienna; 
+    font-style: italic;
+}
+
+.keret {
+    float: right;
+    max-width: 15%;
+    padding: 6px;
+    margin: 0 30px 0 20px;
+    border: sienna 3px dotted;
+    transform: rotate(5deg);
+}
+
+.keret img {
+    width: 100%;
+    height: auto;
+}
+
+.keret:hover img {
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+    transform: scale(1.05);
+    transition: all .5s;
+}
+
+.keret p {
+    margin: 0.3em;
+}
